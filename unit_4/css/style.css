@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Slabo+27px');
+
+	body {
+  text-align: left;
+  background-image: url("../images/thundercloud6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  font-family: 'Slabo 27px', serif;font-weight: bold;font-size:20px;
+  padding-left: 700px; padding-right:100px; padding-top: 200px
+}
+hr {
+  width:200px;
+}
+p {
+  font-size: 50px;
+}
+#headline{color:000;font-family:'Slabo 27px', serif; font-size:68px;}
+#slogan{color: #fff;font-family: 'Raleway', sans-serif;font-size:27px;font-style:italic;font-weight:normal;background-color: #f706a4;padding-left: 5px; }
+
+#about{font-family: 'Raleway', sans-serif;font-size:18px;font-style:normal;font-weight:normal;line-height:1.5em;margin:1em;}
+
+#contact{color:#000;font-size:24px;text-decoration: underline;}
