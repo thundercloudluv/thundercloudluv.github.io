@@ -9,6 +9,110 @@
   font-weight: bold;
   font-size:20px;
   padding: 200px 200px 200px 700px;
+}@import url('https://fonts.googleapis.com/css?family=Raleway|Slabo+27px');
+	body {
+  text-align: left;
+  background-image: url("../images/thundercloud6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+  font-size:20px;
+  padding: 100px 200px 100px 800px;
+  width: 700px;
+}
+p {
+  font-size: 16px;
+}
+
+nav{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;	
+	background-color:#E8C66A;
+	border: 1px black solid;
+	padding: 20px;	
+}
+nav a {
+	color:black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:#f706a4;
+}
+
+header{
+	background-color:#FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#description{
+		background-color:#E89C6C;
+		border: 1px black solid;
+		padding: 20px;
+}
+
+#headline{
+	color:000;
+	font-family:'Slabo 27px', serif; 
+	font-size:68px;
+}
+
+#slogan{
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size:27px;
+	font-style:italic;
+	font-weight:normal;
+	background-color: #f706a4;
+	padding: 10px; 
+	width:300px;
+}
+
+#about{
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1.5em;
+	margin:1em;
+	display: inline-block;
+}
+article a {
+	color:black;
+	text-decoration: none;
+}
+article a:hover {
+	color:#f706a4;
+}
+
+#contact{
+	color:#000;
+	font-size:24px;
+	background-color:#FF957E;
+	border: 2px black solid
+	padding:20px;
+	border-color:#000;
+}
+footer{
+	background-color:#FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer a:hover {
+	color:#f706a4;
+}
+footer p{
+		float: right;
+		padding-right: 380px;
+		padding-top: 45px;
+}
+#wrapper{
+	width:1080px;
+	margin-left: auto;
+	margin-right: auto;
 }
 p {
   font-size: 16px;
