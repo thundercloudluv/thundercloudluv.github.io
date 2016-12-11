@@ -63,7 +63,7 @@ nav a:hover {
 	float: left;
 	width: 35%;
 	font-family: 'Raleway', sans-serif;
-	font-size:1.5em;
+	font-size:1.25em;
 	line-height:2em;
 }
 
@@ -78,7 +78,7 @@ nav a:hover {
 #about{
 	font-family: 'Raleway', sans-serif;
 	font-size: 1em;	
-	line-height:1.5em;
+	line-height:2em;
 	display: inline-block;
 }
 
