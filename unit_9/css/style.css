@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Montserrat');
+	body {
+  text-align: left;
+  background-image: url("../images/thundercloud6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Slabo 27px', serif;
+  font-size:20px;
+  padding: 2.5%;
+}
+
+p {
+  font-size: .75em;
+}
+
+nav{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;	
+	color: white;	
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:#f706a4;
+}
+
+#style{
+	list-style-type: none;
+	font-weight: bold;
+}
+
+#headline{
+	color: #162f56;
+	font-family:'Montserrat', serif; 
+	font-size:3.25em;
+}
+
+#slogan{
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size:1.2em;
+	font-style:italic;
+	background-color: #f706a4;
+	padding: .5%; 
+	width:29.5%;
+}
+
+#two_column {
+	background-color: rgba(255, 255,255, 0.5);
+	padding: 1.5%;
+	width: 100%;
+}
+
+#left {
+	background-color: rgba(255, 255,255, 0.75);
+	padding: 1%;
+	float: left;
+	width: 25%;
+	font-family: 'Raleway', sans-serif;
+	font-size:1.1em;
+	line-height:1em;
+}
+
+#right {
+    padding: 1%;
+    float: right;
+    width: 60%;
+    font-size:1.2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+#about{
+	font-family: 'Raleway', sans-serif;
+	font-size:.85em;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1.5em;
+	display: inline-block;
+}
+article a {
+	color:black;
+	text-decoration: none;
+}
+article a:hover {
+	color:#f706a4;
+}
+
+#contact{
+	color: #162f56;
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.3em;
+	font-weight: 800;
+}
+#contact a{
+	color: #162f56;
+}
+
+#contact a:hover {
+	color:#f706a4;
+}
+footer p{
+		float: right;
+		padding-right: 40%;
+		padding-top: 3%;
+}
+.wrapper{
+	width:85%;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+	nav {
+		float: none;
+		}
+	section {
+    float: none;
+  }
+  #right {float: none; width: 96%;}
+  #left {float: none; width:96%;}
+  #headline {font-size: 2em; color: #fcfbd4;}
+  #slogan{
+	background: none;
+	width:  96%;
+	}
+}
+	
